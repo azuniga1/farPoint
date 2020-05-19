@@ -54,6 +54,18 @@ ul.a{
   list-style: disc;
   margin-bottom: 5px;
 }
+li.b{
+  margin-bottom: 10px;
+}
+
+ol.c{
+  margin-left: 15px;
+  padding: 5px;
+  list-style: decimal;
+}
+li.d{
+  margin-bottom: 10px;
+}
 
 iframe {
   border: 0;
