@@ -50,13 +50,15 @@ ol, ul {
 
 ul.a{
   margin-left: 2px;
-  padding: 15px;
+  padding: 5px;
   list-style: disc;
-  margin-bottom: 5px;
+  margin-bottom: 15px;
 }
 li.b{
   margin-bottom: 10px;
 }
+
+
 
 ol.c{
   margin-left: 15px;
@@ -67,6 +69,10 @@ li.d{
   margin-bottom: 10px;
 }
 
+u.dotted{
+  border-bottom: 1px dashed #999;
+  text-decoration: none; 
+}
 iframe {
   border: 0;
 }
@@ -89,26 +95,29 @@ blockquote {
   background: #655E7A;
 }
 
-input[type="email"], input[type="password"], input[type="text"], input[type="tel"] {
+input[type="email"], input[type="password"], input[type="text"], input[type="tel"]{
   box-shadow: none;
   height: 45px;
-  outline: none;
+  outline: 1px solid;
   font-size: 14px;
 }
 
 input[type="email"]:focus, input[type="password"]:focus, input[type="text"]:focus, input[type="tel"]:focus {
   box-shadow: none;
   border: 1px solid #655E7A;
+
 }
 
 .form-control {
   box-shadow: none;
   border-radius: 0;
+  outline: 1px solid;
 }
 
 .form-control:focus {
   box-shadow: none;
-  border: 1px solid #655E7A;
+  border: 10px solid #655E7A;
+  outline: 1px solid;
 }
 
 .slick-slide {
